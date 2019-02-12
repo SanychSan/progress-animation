@@ -1,11 +1,11 @@
 /**
  *
- * @param {Number}   progress. Progress should be 0 - 1.
- * @param {Number}   from.     Start animated number.
- * @param {Number}   to.       End animated number.
- * @param {Number}   delay.    Delay of animate.
- * @param {Number}   advance.  Advance of animate.
- * @param {Function} easing.   Easing function.
+ * @param {Number}   progress Progress should be 0 - 1
+ * @param {Number}   from     Start animated number
+ * @param {Number}   to       End animated number
+ * @param {Number}   delay    Delay of animate
+ * @param {Number}   advance  Advance of animate
+ * @param {Function} easing   Easing function
  * @returns {Number}
  */
 export default (progress, from = 0, to = 1, delay = 0, advance = 0, easing) => {
